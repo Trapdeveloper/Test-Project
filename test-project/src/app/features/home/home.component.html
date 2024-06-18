@@ -1,0 +1,9 @@
+
+<ActionBar title="NativeFlix"></ActionBar>
+<ListView height="100%" separatorColor="transparent" [items]="flicks">
+    <ng-template let-item="item">
+        <StackLayout>
+            <Label [text]="item.title"></Label>
+        </StackLayout>
+    </ng-template>
+</ListView>
